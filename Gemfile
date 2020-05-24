@@ -62,6 +62,8 @@ gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'stripe', '~> 5.22'
 gem 'trix-rails', require: 'trix'
 gem 'sidekiq'
+gem 'figaro'
+
 group :development, :test do
   gem 'better_errors'
   gem 'guard'

@@ -23,10 +23,13 @@ The application allows users to create an account and post a new job advert to t
 
 ## References
 * [Ruby documentation](https://www.ruby-lang.org/en/documentation/)
-* []
+* [Rails documentation](https://guides.rubyonrails.org/getting_started.html)
 * [Trix](https://www.rubydoc.info/gems/trix-rails/2.2.0)
 * [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
+* [Figaro](https://github.com/laserlemon/figaro)
+* [Stripe](https://dashboard.stripe.com/test/apikeys)
 * [Web-Crunch's repo](https://github.com/justalever/job_board)
+* [Increasing linux inotify file watch limits](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers)
 
 ## Rails commands used
 ```

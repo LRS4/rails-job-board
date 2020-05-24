@@ -1,5 +1,6 @@
 class Job < ApplicationRecord
+    belong_to :user
     mount_uploader :avatar, AvatarUploader
 
-    belong_to :user
+    JOB_TYPES = ["Full-time", "Part-time", "Contract", "Freelance"]
 end

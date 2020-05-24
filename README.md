@@ -22,8 +22,11 @@ The application allows users to create an account and post a new job advert to t
 * Deployment instructions
 
 ## References
+* [Ruby documentation](https://www.ruby-lang.org/en/documentation/)
+* []
 * [Trix](https://www.rubydoc.info/gems/trix-rails/2.2.0)
 * [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
+* [Web-Crunch's repo](https://github.com/justalever/job_board)
 
 ## Rails commands used
 ```

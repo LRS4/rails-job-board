@@ -1,24 +1,21 @@
-# README
+# Rails Job Board
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The application allows users to create an account and post a new job advert to the job board. To do so, the user must make a payment via Stripe. This app was to learn the fundamentals of the Ruby on Rails framework, and credit for the tutorial goes to [Web-Crunch](https://www.youtube.com/watch?v=tGUMArAW5OE).
 
-Things you may want to cover:
+## Configuration
+* Ruby version: 2.7.0
+* Rails version: 6.0.3.1
+* `bundle` to install dependencies from gemfile
+* `rails server` to run localhost on port 3000
 
-* Ruby version
+## Database
+* Database is SQLite3
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
+## Tests
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## API Integrations
+* Services (stripe API and env variables)
 
+## Deployment
 * Deployment instructions
-
-* ...

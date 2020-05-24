@@ -21,6 +21,10 @@ The application allows users to create an account and post a new job advert to t
 ## Deployment
 * Deployment instructions
 
+## References
+* [Trix](https://www.rubydoc.info/gems/trix-rails/2.2.0)
+* [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
+
 ## Rails commands used
 ```
 rails generate migration add_card_info_to_user

@@ -60,7 +60,7 @@ gem 'gravatar_image_tag', github: 'mdeering/gravatar_image_tag'
 gem 'carrierwave', '~> 2.1'
 gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'stripe', '~> 5.22'
-gem 'trix-rails', '~> 2.2'
+gem 'trix-rails', require: 'trix'
 gem 'sidekiq'
 group :development, :test do
   gem 'better_errors'

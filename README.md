@@ -10,6 +10,7 @@ The application allows users to create an account and post a new job advert to t
 
 ## Database
 * Database is SQLite3
+* `rails db:migrate` to migrate schema to database
 
 ## Tests
 * How to run the test suite
@@ -19,3 +20,10 @@ The application allows users to create an account and post a new job advert to t
 
 ## Deployment
 * Deployment instructions
+
+## Rails commands used
+```
+rails generate migration add_card_info_to_user
+rails db:migrate
+
+```

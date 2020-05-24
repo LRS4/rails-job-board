@@ -10,7 +10,8 @@ The application allows users to create an account and post a new job advert to t
 
 ## Database
 * Database is SQLite3
-* `rails db:migrate` to migrate schema to database
+* `rails db:migrate` to apply schema migration to database
+* `rails generate migration description_of_migration` to create a migration schema
 
 ## Tests
 * How to run the test suite
@@ -21,13 +22,16 @@ The application allows users to create an account and post a new job advert to t
 ## Deployment
 * Deployment instructions
 
-## References
-* [Ruby documentation](https://www.ruby-lang.org/en/documentation/)
-* [Rails documentation](https://guides.rubyonrails.org/getting_started.html)
+## Dependencies
+* [Simple Form](https://github.com/heartcombo/simple_form)
 * [Trix](https://www.rubydoc.info/gems/trix-rails/2.2.0)
 * [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
 * [Figaro](https://github.com/laserlemon/figaro)
 * [Stripe](https://dashboard.stripe.com/test/apikeys)
+
+## References
+* [Ruby documentation](https://www.ruby-lang.org/en/documentation/)
+* [Rails documentation](https://guides.rubyonrails.org/getting_started.html)
 * [Web-Crunch's repo](https://github.com/justalever/job_board)
 * [Increasing linux inotify file watch limits](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers)
 

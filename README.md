@@ -25,5 +25,8 @@ The application allows users to create an account and post a new job advert to t
 ```
 rails generate migration add_card_info_to_user
 rails db:migrate
-
+rails console
+user = User.last
+user.admin = true
+user.save
 ```

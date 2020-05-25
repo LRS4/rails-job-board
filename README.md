@@ -18,7 +18,11 @@ The application allows users to create an account and post a new job advert to t
 * How to run the test suite
 
 ## API Integrations
-* Services (stripe API and env variables)
+* The Stripe API relies on a public and private key
+* These can be found in the dashboard of your Stripe account
+* The keys are set in 'application.yml' within the 'config' folder
+* The app then uses the env variables STRIPE_API_KEY and STRIPE_PUBLISHABLE_KEY
+* These are then injected into application.html.erb head meta tags
 
 ## Deployment
 * Deployment instructions

@@ -6,7 +6,11 @@ class JobsController < ApplicationController
   # GET /jobs.json
   # @ is an instance variable
   def index
-    @jobs = Job.all.order("created_at desc")
+    if(params.has_key?(:job_type))
+      @jobs = Job.where(job_type: params[:job_type]).order("created_at desc")
+    else
+      @jobs = Job.all.order("created_at desc")
+    end
   end
 
   # GET /jobs/1

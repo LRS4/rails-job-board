@@ -5,6 +5,7 @@ The application allows users to create an account and post a new job advert to t
 ## Configuration
 * Ruby version: 2.7.0
 * Rails version: 6.0.3.1
+* Linux version: Ubuntu 18.04.2 LTS
 * `bundle` to install dependencies from gemfile
 * `rails server` to run localhost on port 3000
 
@@ -23,6 +24,7 @@ The application allows users to create an account and post a new job advert to t
 * Deployment instructions
 
 ## Dependencies
+* [Bulma](https://bulma.io/documentation/)
 * [Simple Form](https://github.com/heartcombo/simple_form)
 * [Trix](https://www.rubydoc.info/gems/trix-rails/2.2.0)
 * [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)

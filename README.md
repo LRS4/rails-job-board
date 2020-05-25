@@ -36,11 +36,30 @@ The application allows users to create an account and post a new job advert to t
 * [Increasing linux inotify file watch limits](https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers)
 
 ## Rails commands used
+
+### Console commands
 ```
-rails generate migration add_card_info_to_user
-rails db:migrate
 rails console
 user = User.last
 user.admin = true
 user.save
+```
+
+### Application commands
+Create app
+```
+rails new name_of_app
+```
+Scaffold a model to create views, a CRUD controller, tests and [more...](https://guides.rubyonrails.org/v3.2/getting_started.html#getting-up-and-running-quickly-with-scaffolding)
+```
+rails g scaffold Job title:string description:text url:string job_type:string location:string job_author:string remote_ok:boolean apply_url:string
+```
+Or just migrate changes to an existing model
+```
+rails generate migration add_card_info_to_user
+```
+Then apply the migration to the database, and run the app locally
+```
+rails db:migrate
+rails server
 ```

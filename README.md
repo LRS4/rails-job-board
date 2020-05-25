@@ -10,8 +10,11 @@ The application allows users to create an account and post a new job advert to t
 * `rails server` to run localhost on port 3000
 
 ## Database
-* Database is SQLite3
+* Database is SQLite3 for local development
+* `rails db:drop` to drop database (caution)
+* `rails db:create` to create database
 * `rails db:migrate` to apply schema migration to database
+* `rails db:seed` to seed database with test or standard data
 * `rails generate migration description_of_migration` to create a migration schema
 
 ## Tests
@@ -70,4 +73,8 @@ Then apply the migration to the database, and run the app locally
 ```
 rails db:migrate
 rails server
+```
+To seed the database with test or standard data
+```
+rails db:seed
 ```

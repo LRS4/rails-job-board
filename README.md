@@ -28,6 +28,8 @@ The application allows users to create an account and post a new job advert to t
 * [CarrierWave](https://github.com/carrierwaveuploader/carrierwave)
 * [Figaro](https://github.com/laserlemon/figaro)
 * [Stripe](https://dashboard.stripe.com/test/apikeys)
+* [Charges API](https://stripe.com/docs/payments/charges-api)
+* Note: The Charges API is an older payments API that does not handle bank requests for card authentication (SCA). Try new payments APIs and integrations instead for production releases.
 
 ## References
 * [Ruby documentation](https://www.ruby-lang.org/en/documentation/)
